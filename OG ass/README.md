@@ -1,5 +1,6 @@
-Untitled
+OG ass
 ================
+Sihle
 
 GitHub Documents
 ----------------
@@ -10,10 +11,6 @@ Including Code
 --------------
 
 You can include R code in the document as follows:
-
-``` r
-summary(cars)
-```
 
     ##      speed           dist       
     ##  Min.   : 4.0   Min.   :  2.00  
@@ -28,6 +25,6 @@ Including Plots
 
 You can also embed plots, for example:
 
-![](README_files/figure-markdown_github/pressure-1.png)
+<img src="README_files/figure-markdown_github/pressure-1.png" style="display: block; margin: auto;" />
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

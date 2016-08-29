@@ -1,10 +1,11 @@
 ---
-title: "Untitled"
+author: "Sihle"
+title: "OG ass"
 output: github_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r setup, include=FALSE, fig.path='./figures/', fig.height=8, fig.width=8, fig.align='center'}
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ## GitHub Documents
@@ -15,7 +16,7 @@ This is an R Markdown format used for publishing markdown documents to GitHub. W
 
 You can include R code in the document as follows:
 
-```{r cars}
+```{r cars, echo=FALSE}
 summary(cars)
 ```
 
@@ -23,7 +24,7 @@ summary(cars)
 
 You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
+```{r pressure, echo=FALSE, fig.align='center'}
 plot(pressure)
 ```
 
